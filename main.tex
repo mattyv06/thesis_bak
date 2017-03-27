@@ -1,0 +1,177 @@
+\documentclass[thesis]{MSUstyle}
+%  Created by Seth Humphries 
+%  Update and maintained by Prof. Mark Owkes mark.owkes@me.montana.edu
+%
+%  For latest changes pull from the bitbucket repository
+% 
+%%    Copyright (c) 2007-2012 Seth D. Humphries
+%%    This work is licensed under the Creative Commons
+%%    Attribution-Noncommercial-Share Alike 3.0 License. To view a copy
+%%    of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/;
+%%    or, (b) send a letter to Creative Commons, 171 2nd Street, Suite
+%%    300, San Francisco, California, 94105, USA. 
+%
+% The default options are as follows:
+%   \documentclass[12pt,letterpaper,oneside,openright,%
+%       doublespaced,normalmargins,dissertation,final,numreset,altchapter]{MSUstyle}
+%
+% default options do not need to be entered. Defaults will generate a document 
+% that conforms to the MSU division of graduate education's (DGE)
+% guidelines. 
+%
+% use \documentclass[thesis]{MSUstyle} to adjustment the front matter according to DGE style rules that
+% are different for a thesis than for a dissertation.
+%
+% options 10pt, singlespaced and draft allow you to require less number of pages for editing
+%
+
+% ========================= %
+%         Packages          %
+% ========================= %
+% Order of packages matters %
+\usepackage[final]{graphicx} %for the \includegraphics command and figures put [final] before ...
+%%    {graphix} if you want figures to show up even while in draft mode
+\usepackage{subcaption}    % to be able to have multiple plots in one figure
+\usepackage{color} % for changing text color in chapters \textcolor{red}{red text read here}. 
+\usepackage{varioref}  % for \vref{figure} which shows up like ``figure 4 on page 6'' 
+\usepackage{rotating}  % to rotate figures and captions
+
+\usepackage{pdflscape}		%command to rotate a page into landscape mode
+\usepackage{setspace}		%\vspace command
+\usepackage{mathrsfs}			%a fancy script for fourier and hilbert transform symbols
+\usepackage{mathtools}
+\usepackage{verbatim}			%add the \comment option
+
+\usepackage[final]{listings} %used for formatting code
+\usepackage[pdftex,hidelinks]{hyperref}
+\usepackage{cite} %compresses the citations so \cite{ref1,ref2,ref3,ref4} is printed as [1-4] instead of [1,2,3,4]
+
+\usepackage{tikz} % used for creating figures
+\usetikzlibrary{calc}
+\usetikzlibrary{patterns}
+\usetikzlibrary{positioning}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows}
+
+\usepackage{latexsym}
+\usepackage{bm,array}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{afterpage}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % Generates random text
+
+\lfoot{}\cfoot{}\rfoot{}  %clear footers
+\lhead{}\chead{}\rhead{}  %clear headers
+\renewcommand{\headrulewidth}{0pt} %Do not print a line below the header
+
+\usepackage{attachfile} %used to attach files into final pdf, must be included after pdftex package
+
+% Style of code listings (Change as needed)
+\lstset{%set Code listings styles
+	language=Matlab, % program language for keywords and comments styles
+	basicstyle=\small, %font size and style
+	identifierstyle=\color{red}, %variable name style
+	stringstyle=\ttfamily, %string style
+	keywordstyle=\color{blue}\bfseries, %language keyword style
+	commentstyle=\color{black}\itshape, %commentstyle
+	breaklines=true,  % sets automatic line breaking
+	breakatwhitespace=false,   %break line not just at whitespaces
+}
+
+
+% ======================= %
+%  User defined commands  %
+% ======================= %
+\newcommand{\etc}{etc.}
+\newcommand{\eg}{e.g.}
+\newcommand{\ie}{i.e.} 
+
+% =============================== %
+%  Definitions: Change as needed  %
+% =============================== %
+\name{Matthew Philip Voll} % your FULL name here
+\DocTitle{An Evolution of CubeSat Subsystem Design Methods for...} 
+\OWNwebpage{http://mywebsite.net} %your personal webpage
+\degreetitle{Electrical Engineering} % may be different than department... ie MS in Electrical Engineering is not Elect. and Com. Engnr degree.
+\department{Electrical and Computer Engineering}
+\committeechair{Dr. Todd J. Kaiser} 
+\departmentchair{Dr. Robert C. Maher}
+\graduatedean{Dr. Karlene A. Hoo}
+\submitdate{April, 2017} 
+\copyrightyear{2017} %add one to year if document submitted in Dec.
+\draftver{0.1} %versioning for use with draft option
+
+% put searchable words you want internet search engines to find here
+\keys{Electrical Engineering, Thesis, CubeSat, Design, Montana State} 
+ 
+\bibfiles{mybib} %your .bib file(s), files containing bibliographic 
+
+%  Configuration of hyperref package
+\hypersetup{%
+	baseurl={\OWNwebpage}, %baseurl is url that is in pdf document properties
+% 	bookmarks=true, %show bookmarks when opening pdf
+	citecolor=black, %citations show up black
+	colorlinks=true, %use colored links
+	draft=false, % prevents hyperref from draft mode...keeps bookmarks and hyperlinks in draft mode
+	filecolor=black, %included file links are black text
+	linkcolor=black, %the colored links are black for an ETD but can be otherwise
+	pdfauthor={\name}, %pdf document maker is you
+	pdfcreator={\name \ by \ PDFLaTex}, %pdf document maker is you
+	pdfdisplaydoctitle=true, % make display title the same as the document title instead of the filename
+	pdffitwindow=true, %fits one page into the open pdf reader window
+	pdfkeywords={\keys}, %searchable keywords
+	pdfsubject={\degreetype \ for \name}, %the \  is to give a space
+	pdftitle={\DocTitle}, %pdf document title is now ETD title
+	plainpages=false, %use hyperlinks in pages, gets rid of a lot of warnings too
+	urlcolor=black %website links are black text
+}%
+
+% ================================ %
+%         Actual Document          %
+% ================================ %
+\begin{document}
+\bibliographystyle{abbrv} % Use a style you and your adviser like
+
+%\algorithmspagetrue %uncomment this line if you desire a `list of algorithms' page.
+
+\begin{preliminary} %preliminary take care of all the front matter...before your text
+  \begin{dedication} 
+    \input{dedication} % dedication page (not necessary)
+  \end{dedication}
+
+  \begin{acknowledgements}
+    \input{acknow} % acknowledgements page
+  \end{acknowledgements}
+
+  % Contents pages 
+  \contents
+
+  \begin{abstract}
+    \input{abstract} % abstract page
+  \end{abstract}
+\end{preliminary}
+%% end making front matter
+
+% dissertation chapters, change the file names to the ones that you want like: filename.tex
+\include{introduction}
+\include{theory}
+\include{conclusion}
+% Add additional chapters here
+
+% End matter
+\begin{postliminary}
+  \Appendtrue  %comment out or remove if you do not have an appendix
+  \references  %do not change this
+\end{postliminary}
+
+
+\appendix % put appendix chapters here.
+\include{appendixa}
+\include{appendixb}
+
+\end{document}
+% do not put anything after this
+

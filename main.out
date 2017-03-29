@@ -1,24 +1,31 @@
 \BOOKMARK [0][-]{title.0}{Titlepage}{}% 1
 \BOOKMARK [1][-]{copyright.1}{Copyright}{title.0}% 2
-\BOOKMARK [1][-]{dedication.1}{Dedication}{title.0}% 3
-\BOOKMARK [1][-]{acknowledgements.1}{Acknowledgements}{title.0}% 4
-\BOOKMARK [0][-]{toc.0}{Table of Contents}{}% 5
-\BOOKMARK [0][-]{Tables.0}{List of Tables}{}% 6
-\BOOKMARK [0][-]{Figures.0}{List of Figures}{}% 7
-\BOOKMARK [0][-]{abstract.0}{Abstract}{}% 8
-\BOOKMARK [0][-]{chapter.1}{Chapter 1 \204 Introduction}{}% 9
-\BOOKMARK [1][-]{section*.9}{Section}{chapter.1}% 10
-\BOOKMARK [0][-]{chapter.2}{Chapter 2 \204 Background}{}% 11
-\BOOKMARK [0][-]{chapter.3}{Chapter 3 \204 Design Study - Solar Cell Experiment}{}% 12
-\BOOKMARK [0][-]{chapter.4}{Chapter 4 \204 Design Study - Electrical Power Subsystem}{}% 13
-\BOOKMARK [0][-]{chapter.5}{Chapter 5 \204 Design Study - Electrical Ground Support Equipment}{}% 14
-\BOOKMARK [0][-]{chapter.6}{Chapter 6 \204 Theory}{}% 15
-\BOOKMARK [1][-]{section*.12}{Equations}{chapter.6}% 16
-\BOOKMARK [1][-]{section*.14}{Figures}{chapter.6}% 17
-\BOOKMARK [1][-]{section*.18}{Tables}{chapter.6}% 18
-\BOOKMARK [1][-]{section*.20}{References and Citations}{chapter.6}% 19
-\BOOKMARK [0][-]{chapter.7}{Chapter 7 \204 Conclusion}{}% 20
-\BOOKMARK [0][-]{section*.23}{References Cited}{}% 21
-\BOOKMARK [0][-]{section*.24}{APPENDICES}{}% 22
-\BOOKMARK [0][-]{appendix.A}{APPENDIX A: \040Example Code}{}% 23
-\BOOKMARK [0][-]{appendix.B}{APPENDIX B: \040Example Schematic}{}% 24
+\BOOKMARK [1][-]{acknowledgements.1}{Acknowledgements}{title.0}% 3
+\BOOKMARK [0][-]{toc.0}{Table of Contents}{}% 4
+\BOOKMARK [0][-]{Tables.0}{List of Tables}{}% 5
+\BOOKMARK [0][-]{Figures.0}{List of Figures}{}% 6
+\BOOKMARK [0][-]{abstract.0}{Abstract}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Chapter 1 \204 Introduction}{}% 8
+\BOOKMARK [1][-]{section*.8}{Section}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Chapter 2 \204 Background}{}% 10
+\BOOKMARK [0][-]{chapter.3}{Chapter 3 \204 Design Study - Solar Cell Experiment}{}% 11
+\BOOKMARK [1][-]{section*.11}{Requirements and Conceptual Design}{chapter.3}% 12
+\BOOKMARK [1][-]{section*.12}{Circuit Simulations and Calculations}{chapter.3}% 13
+\BOOKMARK [1][-]{section*.13}{PCB Layout and Mechanical Design}{chapter.3}% 14
+\BOOKMARK [1][-]{section*.14}{Calibration and Results}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Chapter 4 \204 Design Study - Electrical Power Subsystem}{}% 16
+\BOOKMARK [1][-]{section*.15}{Requirements and Conceptual Design}{chapter.4}% 17
+\BOOKMARK [1][-]{section*.16}{Circuit Simulations and Calculations}{chapter.4}% 18
+\BOOKMARK [1][-]{section*.17}{PCB Layout and Mechanical Design}{chapter.4}% 19
+\BOOKMARK [1][-]{section*.18}{Lessons Learned and Future Work}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{Chapter 5 \204 Design Study - Electrical Ground Support Equipment}{}% 21
+\BOOKMARK [1][-]{section*.19}{Requirements and Conceptual Design}{chapter.5}% 22
+\BOOKMARK [1][-]{section*.20}{Circuit Simulations and Calculations}{chapter.5}% 23
+\BOOKMARK [1][-]{section*.21}{PCB Layout and Mechanical Design}{chapter.5}% 24
+\BOOKMARK [1][-]{section*.22}{Lessons Learned and Future Work}{chapter.5}% 25
+\BOOKMARK [0][-]{chapter.6}{Chapter 6 \204 Future Methods}{}% 26
+\BOOKMARK [0][-]{chapter.7}{Chapter 7 \204 Conclusion}{}% 27
+\BOOKMARK [0][-]{section*.23}{References Cited}{}% 28
+\BOOKMARK [0][-]{section*.24}{APPENDICES}{}% 29
+\BOOKMARK [0][-]{appendix.A}{APPENDIX A: \040Example Code}{}% 30
+\BOOKMARK [0][-]{appendix.B}{APPENDIX B: \040Example Schematic}{}% 31

@@ -1,34 +1,39 @@
 \setcounter {tocdepth}{3}
 \contentsline {chapter}{\numberline {1.}\MakeUppercase {Introduction}}{1}{chapter.1}
-\contentsline {section}{Section}{1}{section*.9}
-\contentsline {subsection}{Subsection}{1}{subsection*.10}
-\contentsline {subsubsection}{Subsubsection}{2}{subsubsection*.11}
-\contentsline {subsection}{Subsection With a Very Very Very Very\\ Very Very Very Very Very Very Long Title}{2}{subsubsection*.11}
-\contentsline {subsection}{Another Subsection With a Very Long Title}{2}{subsubsection*.11}
+\contentsline {section}{Section}{1}{section*.8}
+\contentsline {subsection}{Subsection}{1}{subsection*.9}
+\contentsline {subsubsection}{Subsubsection}{2}{subsubsection*.10}
+\contentsline {subsection}{Subsection With a Very Very Very Very\\ Very Very Very Very Very Very Long Title}{2}{subsubsection*.10}
+\contentsline {subsection}{Another Subsection With a Very Long Title}{2}{subsubsection*.10}
 \setcounter {tocdepth}{3}
 \contentsline {chapter}{\numberline {2.}\MakeUppercase {Background}}{3}{chapter.2}
 \setcounter {tocdepth}{3}
 \contentsline {chapter}{\numberline {3.}\MakeUppercase {Design Study - Solar Cell Experiment}}{4}{chapter.3}
+\contentsline {section}{Requirements and Conceptual Design}{4}{section*.11}
+\contentsline {section}{Circuit Simulations and Calculations}{4}{section*.12}
+\contentsline {section}{PCB Layout and Mechanical Design}{4}{section*.13}
+\contentsline {section}{Calibration and Results}{4}{section*.14}
 \setcounter {tocdepth}{3}
 \contentsline {chapter}{\numberline {4.}\MakeUppercase {Design Study - Electrical Power Subsystem}}{5}{chapter.4}
+\contentsline {section}{Requirements and Conceptual Design}{5}{section*.15}
+\contentsline {section}{Circuit Simulations and Calculations}{5}{section*.16}
+\contentsline {section}{PCB Layout and Mechanical Design}{5}{section*.17}
+\contentsline {section}{Lessons Learned and Future Work}{5}{section*.18}
 \setcounter {tocdepth}{3}
 \contentsline {chapter}{\numberline {5.}\MakeUppercase {Design Study - Electrical Ground Support Equipment}}{6}{chapter.5}
+\contentsline {section}{Requirements and Conceptual Design}{6}{section*.19}
+\contentsline {section}{Circuit Simulations and Calculations}{6}{section*.20}
+\contentsline {section}{PCB Layout and Mechanical Design}{6}{section*.21}
+\contentsline {section}{Lessons Learned and Future Work}{6}{section*.22}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\numberline {6.}\MakeUppercase {Theory}}{7}{chapter.6}
-\contentsline {section}{Equations}{7}{section*.12}
-\contentsline {subsection}{Symbols}{7}{subsection*.13}
-\contentsline {section}{Figures}{8}{section*.14}
-\contentsline {section}{Tables}{10}{section*.18}
-\contentsline {section}{References and Citations}{10}{section*.20}
-\contentsline {subsection}{Referencing other parts of the document}{10}{subsection*.21}
-\contentsline {subsection}{Citing others work}{10}{subsection*.22}
+\contentsline {chapter}{\numberline {6.}\MakeUppercase {Future Methods}}{7}{chapter.6}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\numberline {7.}\MakeUppercase {Conclusion}}{12}{chapter.7}
-\contentsline {chapter}{\MakeUppercase {References Cited}}{13}{section*.23}
+\contentsline {chapter}{\numberline {7.}\MakeUppercase {Conclusion}}{8}{chapter.7}
+\contentsline {chapter}{\MakeUppercase {References Cited}}{9}{section*.23}
 \setcounter {tocdepth}{3}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{APPENDICES}{13}{section*.24}
+\contentsline {chapter}{APPENDICES}{10}{section*.24}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\hspace {0.15in}\MakeUppercase {\MakeUppercase {Appendix}} \numberline {A}\hspace {-0.18in} : Example Code \vspace {-0.15in}}{14}{appendix.A}
+\contentsline {chapter}{\hspace {0.15in}\MakeUppercase {\MakeUppercase {Appendix}} \numberline {A}\hspace {-0.18in} : Example Code \vspace {-0.15in}}{11}{appendix.A}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\hspace {0.15in}\MakeUppercase {\MakeUppercase {Appendix}} \numberline {B}\hspace {-0.18in} : Example Schematic \vspace {-0.15in}}{16}{appendix.B}
+\contentsline {chapter}{\hspace {0.15in}\MakeUppercase {\MakeUppercase {Appendix}} \numberline {B}\hspace {-0.18in} : Example Schematic \vspace {-0.15in}}{13}{appendix.B}

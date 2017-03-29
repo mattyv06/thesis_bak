@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 MAR 2017 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 MAR 2017 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,9 +897,46 @@ Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 130
 Package hyperref Info: Option `pdffitwindow' set `true' on input line 130.
 Package hyperref Info: Option `plainpages' set `false' on input line 130.
 
-(./main.aux (./introduction.aux) (./background.aux) (./Design1.aux)
-(./Design2.aux) (./Design3.aux) (./theory.aux) (./conclusion.aux)
-(./appendixa.aux) (./appendixb.aux))
+(./main.aux (./introduction.aux) (./background.aux) (./Design1.aux
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+) (./Design2.aux
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+) (./Design3.aux
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+
+LaTeX Warning: Label `Sect:test' multiply defined.
+
+) (./method.aux) (./conclusion.aux) (./appendixa.aux) (./appendixb.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
@@ -1018,7 +1055,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 140.
 
-***************** Dedication ******************
+***************** Acknowledgements ******************
 [1
 
 ]
@@ -1054,46 +1091,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (./dedication.tex) [2
-
-
-]
-***************** Acknowledgements ******************
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
-* v-part:(T,H,B)=(144.76999pt, 577.93001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=433.62001pt
-* \textheight=577.93001pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=2.5pt
-* \headheight=12.0pt
-* \headsep=58.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=18.05254pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(./acknow.tex
+ (./acknow.tex
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 5.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
@@ -1114,9 +1115,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)) [3
-
-
+)) [2
 
 
 ]
@@ -1153,16 +1152,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./main.toc)
+(./main.toc [3
+
+
+
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4
-
-
-
-
-]
+ [4]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1199,12 +1198,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [5
-
-
-
-
-]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -1241,7 +1234,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [6
+ [5
+
+
+
+
 
 
 
@@ -1280,7 +1277,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./abstract.tex) [7
+(./abstract.tex) [6
 
 
 
@@ -1290,6 +1287,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (./introduction.tex
 *****************  Chapter 1. Introduction  *****************
+
+LaTeX Warning: Reference `CH:theory' on page 1 undefined on input line 2.
+
 [1
 
 
@@ -1335,75 +1335,53 @@ t  *****************
 
 
 ]
-\openout2 = `theory.aux'.
+\openout2 = `method.aux'.
 
- (./theory.tex
-*****************  Chapter 6. Theory  *****************
-[7
-
-
-
-] <figs/plot.pdf, id=230, 228.47508pt x 154.51048pt>
-File: figs/plot.pdf Graphic file (type pdf)
- <use figs/plot.pdf>
-Package pdftex.def Info: figs/plot.pdf used on input line 33.
-(pdftex.def)             Requested size: 260.17465pt x 175.95042pt.
-
-<figs/MSU.jpg, id=232, 491.8375pt x 332.24126pt>
-File: figs/MSU.jpg Graphic file (type jpg)
- <use figs/MSU.jpg>
-Package pdftex.def Info: figs/MSU.jpg used on input line 44.
-(pdftex.def)             Requested size: 260.17465pt x 175.75749pt.
- [8 <./figs/plot.pdf>] [9 <./figs/MSU.jpg>]
-
-LaTeX Warning: Citation `owkes_mesh-decoupled_2015' on page 10 undefined on inp
-ut line 102.
+ (./method.tex
+*****************  Chapter 6. Future Methods  *****************
+) [7
 
 
-LaTeX Warning: Citation `desjardins_direct_2013' on page 10 undefined on input 
-line 102.
 
-
-LaTeX Warning: Citation `owkes_discontinuous_2013' on page 10 undefined on inpu
-t line 102.
-
-
-LaTeX Warning: Citation `owkes_computational_2014' on page 10 undefined on inpu
-t line 102.
-
-) [10] [11]
+]
 \openout2 = `conclusion.aux'.
 
  (./conclusion.tex
 *****************  Chapter 7. Conclusion  *****************
-) [12
+) [8
 
 
 
 ]
 ***************** References Cited******************
-No file main.bbl.
-[13
+(./main.bbl [9
 
+
+
+]
+
+LaTeX Warning: Empty ``thebibliography'' environment on input line 3.
+
+) [10
 
 
 ]
 \openout2 = `appendixa.aux'.
 
- (./appendixa.tex [14
+ (./appendixa.tex [11
 
 
-]) [15
+]) [12
 
 ]
 \openout2 = `appendixb.aux'.
 
- (./appendixb.tex [16
+ (./appendixb.tex [13
 
 
 
 ]
-<figs/schematic.png, id=305, 1285.80376pt x 682.55pt>
+<figs/schematic.png, id=270, 1285.80376pt x 682.55pt>
 File: figs/schematic.png Graphic file (type png)
  <use figs/schematic.png>
 Package pdftex.def Info: figs/schematic.png used on input line 4.
@@ -1412,43 +1390,45 @@ Package pdftex.def Info: figs/schematic.png used on input line 4.
 
 LaTeX Warning: Float too large for page by 16.0pt on input line 7.
 
-) [17 <./figs/schematic.png>]
+) [14 <./figs/schematic.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./main.aux (./introduction.aux)
 (./background.aux) (./Design1.aux) (./Design2.aux) (./Design3.aux)
-(./theory.aux) (./conclusion.aux) (./appendixa.aux) (./appendixb.aux))
+(./method.aux) (./conclusion.aux) (./appendixa.aux) (./appendixb.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3F0A76AF4B1C18A2B66B6046A0B437FC;1452.
+(rerunfilecheck)             Checksum: 73569B1CD8A65DA8A7C44D00080741A4;2125.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 23790 strings out of 493014
- 435919 string characters out of 6133351
- 657148 words of memory out of 5000000
- 26694 multiletter control sequences out of 15000+600000
- 14926 words of font info for 60 fonts, out of 8000000 for 9000
+ 23668 strings out of 493014
+ 433138 string characters out of 6133351
+ 655148 words of memory out of 5000000
+ 26591 multiletter control sequences out of 15000+600000
+ 13095 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,94p,815b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,8n,94p,815b,1538s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (25 pages, 359605 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (21 pages, 134338 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 287 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,21 +16,3 @@ For long subsection titles use the command \verb|\longsubsection{#1}{#2}|, where
 
 \longsubsection[Another Subsection With a Very Long Title]{Another Subsection With a Very Very Very}{Very Very Very Very Very Very Long Title}\label{Sect:longsub2}
 The are \textbf{not} similar commands for sections and subsubsections as these are not specified in the MSU style guide.  
-
-\chapter{Introduction}
-
-\newcount\loopcount
-\loopcount 5
-\loop
-  \section{Section}
-  \lipsum[1] % Random text
-
-  \subsection{Subsection}
-  \lipsum[2] % Random text
-
-  \subsubsection{Subsubsection}
-  \lipsum[3] % Random text
-
-\advance\loopcount-1
-\ifnum\loopcount>0
-\repeat 
